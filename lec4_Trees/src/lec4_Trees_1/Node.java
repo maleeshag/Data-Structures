@@ -121,6 +121,42 @@ class Tree{
 	}
 	
 	
+	public Node minimum() {
+		
+		Node current=root;
+		
+		
+		while(current.leftChild!=null) {
+			
+			current=current.leftChild;
+			
+			
+		}
+		
+		return current;
+		
+	}
+	
+	public Node maximum() {
+		
+		Node current=root;
+		
+		
+		while(current.rightChild!=null) {
+			
+			current=current.rightChild;
+			
+			
+		}
+		
+		return current;
+		
+	}
+	
+	
+	
+	
+	
 	
 	
 	
